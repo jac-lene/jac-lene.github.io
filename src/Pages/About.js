@@ -19,6 +19,8 @@ function About() {
     <div className='center'>
         <div className='spacer'></div>
         <div className='spacer'></div>
+        <div className='spacer'></div>
+
 
         <div className='about-cont1'>
         <div className='about-cont'>
