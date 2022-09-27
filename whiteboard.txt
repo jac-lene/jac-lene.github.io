@@ -1,3 +1,6 @@
+SCRIPT TO REDEPLOY ---  npm run deploy!!!!
+
+
 PORTFOLIO SITE 
 
 MVPs
