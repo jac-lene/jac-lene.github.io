@@ -12,14 +12,14 @@ function CarouselComp() {
 
   return (
     <Carousel className='car-item' variant='dark'>
-      <Carousel.Item >
-        <Link to='/work/socklab'><div className='carousel'>
-            <img
-            className="d-block w-100"
-            src={Sock}
-            alt="First slide"
-            style={{height:'100%', width:'auto', objectFit:'contain'}}
-            />
+       <Carousel.Item>
+        <Link to='/work/gyst'><div className='carousel'> 
+        <img
+          className="d-block w-100"
+          src={Gyst}
+          alt="First slide"
+          style={{height:'100%', width:'auto', objectFit:'contain'}}
+        />
         </div>
         </Link>
       </Carousel.Item>
@@ -34,17 +34,18 @@ function CarouselComp() {
         </div>
         </Link>
       </Carousel.Item>
-      <Carousel.Item>
-        <Link to='/work/gyst'><div className='carousel'> 
-        <img
-          className="d-block w-100"
-          src={Gyst}
-          alt="Third slide"
-          style={{height:'100%', width:'auto', objectFit:'contain'}}
-        />
+      <Carousel.Item >
+        <Link to='/work/socklab'><div className='carousel'>
+            <img
+            className="d-block w-100"
+            src={Sock}
+            alt="Third slide"
+            style={{height:'100%', width:'auto', objectFit:'contain'}}
+            />
         </div>
         </Link>
       </Carousel.Item>
+     
       <Carousel.Item>
       <Link to='/work/raccoons'><div className='carousel'>
         <img
